@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 100
+exclude =
+  migrations,
+  __pycache__,
+  manage.py,
+settings.py
+
+ignore =
+  E231,E302,E225,E265
